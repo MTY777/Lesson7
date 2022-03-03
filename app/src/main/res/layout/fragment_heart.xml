@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HeartFragment">
+
+    <TextView
+        android:paddingStart="160dp"
+        android:paddingTop="40dp"
+        android:text="Following"
+        android:fontFamily="@font/font_acme"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:id="@+id/tv_following"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toTopOf="@id/first_text"/>
+
+    <View
+        android:id="@+id/view"
+        android:background="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/tv_following"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+<TextView
+    android:id="@+id/first_text"
+    android:layout_width="350dp"
+    android:layout_height="70dp"
+    android:text="karennne liked your photo. 1h"
+    android:paddingTop="24dp"
+    android:paddingStart="60dp"
+    android:textSize="12sp"
+    android:layout_marginTop="12dp"
+    android:textColor="@color/gray"
+    app:layout_constraintTop_toBottomOf="@id/view"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/image_women"
+        app:layout_constraintTop_toTopOf="@id/first_text"
+        app:layout_constraintBottom_toBottomOf="@id/first_text"
+        app:layout_constraintEnd_toStartOf="@id/first_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <ImageView
+        android:id="@+id/image_fata"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintTop_toTopOf="@id/first_text"
+        app:layout_constraintStart_toEndOf="@id/first_text"
+        app:layout_constraintBottom_toBottomOf="@id/first_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/second_text"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:text="karennne liked your photo. 1h"
+        android:paddingTop="24dp"
+        android:paddingStart="60dp"
+        android:textSize="12sp"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/gray"
+        app:layout_constraintTop_toBottomOf="@id/first_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/image_women_second"
+        app:layout_constraintTop_toTopOf="@id/second_text"
+        app:layout_constraintBottom_toBottomOf="@id/second_text"
+        app:layout_constraintEnd_toStartOf="@id/second_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <ImageView
+        android:id="@+id/image_fata_second"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintTop_toTopOf="@id/second_text"
+        app:layout_constraintStart_toEndOf="@id/second_text"
+        app:layout_constraintBottom_toBottomOf="@id/second_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/first_text_third"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:text="karennne liked your photo. 1h"
+        android:paddingTop="24dp"
+        android:paddingStart="60dp"
+        android:textSize="12sp"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/gray"
+        app:layout_constraintTop_toBottomOf="@id/second_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/image_women_third"
+        app:layout_constraintTop_toTopOf="@id/first_text_third"
+        app:layout_constraintBottom_toBottomOf="@id/first_text_third"
+        app:layout_constraintEnd_toStartOf="@id/first_text_third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <ImageView
+        android:id="@+id/image_fata_third"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintTop_toTopOf="@id/first_text_third"
+        app:layout_constraintStart_toEndOf="@id/first_text_third"
+        app:layout_constraintBottom_toBottomOf="@id/first_text_third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/first_text_four"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:text="karennne liked your photo. 1h"
+        android:paddingTop="24dp"
+        android:paddingStart="60dp"
+        android:textSize="12sp"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/gray"
+        app:layout_constraintTop_toBottomOf="@id/first_text_third"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/image_women_four"
+        app:layout_constraintTop_toTopOf="@id/first_text_four"
+        app:layout_constraintBottom_toBottomOf="@id/first_text_four"
+        app:layout_constraintEnd_toStartOf="@id/first_text_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <ImageView
+        android:id="@+id/image_fata_four"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintTop_toTopOf="@id/first_text_four"
+        app:layout_constraintStart_toEndOf="@id/first_text_four"
+        app:layout_constraintBottom_toBottomOf="@id/first_text_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
